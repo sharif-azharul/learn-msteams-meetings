@@ -1,0 +1,61 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "b419fc60-251b-11ed-89d0-77c3365bb87f",
+  "version": "0.0.1",
+  "packageName": "learnmsteamsmettingsappsaz",
+  "developer": {
+    "name": "My Medical Hub",
+    "websiteUrl": "https://7c5d-27-147-160-223.ngrok.io",
+    "privacyUrl": "https://7c5d-27-147-160-223.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://7c5d-27-147-160-223.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "Stand-up Agenda",
+    "full": "Stand-up Agenda"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://7c5d-27-147-160-223.ngrok.io/standUpAgendaTTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "groupchat"
+      ],
+      "context": [
+        "meetingChatTab",
+        "meetingDetailsTab",
+        "meetingSidePanel",
+        "meetingStage"
+      ],
+      "meetingSurfaces": [
+        "sidePanel",
+        "stage"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "7c5d-27-147-160-223.ngrok.io"
+  ],
+  "showLoadingIndicator": false,
+  "webApplicationInfo": {
+    "id": "d0be1859-c54a-4a13-83c8-2c3bde7e3d5d",
+    "resource": "api://learnmsteamsmettingsappsaz.azurewebsites.net/d0be1859-c54a-4a13-83c8-2c3bde7e3d5d"
+  }
+}
